@@ -1,5 +1,16 @@
 /* 990PX */
-@media (max-width : 990px) {}
+@media (max-width : 990px) {
+    /* AUTHOR AND BOOK SECTION */
+    .left_section {
+        width: 45%;
+    }
+    
+    .right_section {
+        width: 53%;
+    }
+    
+
+}
 
 /* 768PX */
 @media (max-width : 768px) {
@@ -25,6 +36,14 @@
     .footer_text {
         font-size: 1.4rem;
     }
+
+     /* AUTHOR AND BOOK SECTION */
+     .left_section , 
+     .right_section {
+        width: 100%;
+    }
+    
+    
 }
 
 /* 572PX */
