@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* TEXT AND BG COLORS */
+    --white: #fff;
+    --light-white: #cfcfd0;
+    --black: #171542;
+    --blue: #21D8FC;
+    --dark-blue: #100028;
+    --bg-color: #09101a;
+    --purple-color: #513a91;
+    --heading-font: "Montserrat", sans-serif;
+    --text-font: "Poppins", sans-serif;
+    /* TRANSITION */
+    --transition: all 0.4s ease-in;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: var(--white) !important;
+    font-family: var(--text-font);
+}
+
+.font-heading {
+    font-family: var(--heading-font) !important;
+}
+.font-text {
+    font-family: var(--text-font) !important;
+}
+
+/* COLORS CLASSES */
+.text-light-white {
+    color: var(--light-white) !important;
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.text-purple {
+    color: var(--purple-color) !important;
+}
+
+/* FONT WEIGHT CLASSES */
+.fw-normal {
+    font-weight: 300 !important;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 800 !important;
+}
+
+.fw-900 {
+    font-weight: 900 !important;
+}
+
+
+
+/* -------------------------------------------- CHILD PAGE START-------------------------------------------- */
+.child_img_section {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+.child_body_section {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.help_text {
+    font-size: 1.6rem ;
+    font-weight: normal;
+    color: #000;
+}
+
+.child_body_section h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.child_btn_primary {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.2rem solid var(--blue);
+    border-radius: 0.4rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+}
+.child_btn_secondary {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border: 0.2rem solid var(--light-white);
+    border-radius: 0.4rem;
+    background-color: transparent;
+    font-size: 1.4rem;
+    transition: var(--transition);
+}
+
+.child_btn_secondary:hover ,
+.child_btn_secondary:focus {
+    border-color: var(--blue);
+}
+
+.progress_bar-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.progress_bar-section p {
+    font-size: 1.4rem;
+    font-family: var(--text-font);
+}
+
+.progress_bar {
+    width: 250px;
+    height: 7px;
+    border-radius: 0.8rem;
+    background-color: var(--light-white);
+}
+
+.progress_bar_inner {
+    width: 130px;
+    height: 7px;
+    border-radius: 0.8rem;
+    background-color: var(--blue);
+}
+
+.child_link_section {
+    margin-top: 4rem;
+}
+
+.child_link a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--purple-color);
+}
+
+.footer_text {
+    color: #cbcbf2;
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+}
+
+/* -------------------------------------------- DATE OF BIRTH PAGE START-------------------------------------------- */
+.form-control , 
+.form-select {
+    width: 140px;
+    height: 50px;
+    border: 0.2rem solid var(--light-white);
+    transition: var(--transition);
+}
+
+.form-control:focus , 
+.form-select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: var(--blue) !important;
+}
+
+
+/* -------------------------------------------- CHILD PAGE START-------------------------------------------- */
+/* -------------------------------------------- CHILD PAGE START-------------------------------------------- */

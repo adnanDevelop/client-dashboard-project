@@ -1,0 +1,31 @@
+/* 990PX */
+@media (max-width : 990px) {}
+
+/* 768PX */
+@media (max-width : 768px) {
+    .child_img_section {
+        height: 40vh;
+    }
+
+    .child_body_section {
+        height: 50vh;
+    }
+
+    .help_text {
+        font-size: 1.4rem;
+    }
+    .child_body_section h2 {
+        font-size: 2.5rem;
+    }
+
+    .child_link a {
+        font-size: 1.3rem;
+    }
+
+    .footer_text {
+        font-size: 1.4rem;
+    }
+}
+
+/* 572PX */
+@media (max-width : 572px) {}
