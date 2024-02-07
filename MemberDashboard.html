@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/responsive.css" />
+    <title>Date of birth</title>
+  </head>
+  <body class="position-relative bg-white">
+    <!---------------------------- MEMBER HEADER  SECTION ---------------------------- -->
+    <div class="container-fluid member_header">
+      <div class="row p-4">
+        <div class="col-12">
+          <h2 class="text-light-blue fw-600 text-uppercase">members</h2>
+          <p class="text-light-blue">
+            Vestibulum id ligula porta fellis eusmood semper. Donec id elit non
+            mi porta gravida at eget metus
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------- MEMBER FIELD  SECTION ---------------------------- -->
+    <div class="container-fluid">
+      <div class="row px-2 py-4 mx-4 bg-light-blue rounded">
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3">Master</label>
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select Master</option>
+            <option value="january">Master one</option>
+            <option value="february">Master two</option>
+            <option value="march">Master three</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3">Event</label>
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select Evenet</option>
+            <option value="january">Event one</option>
+            <option value="february">Event two</option>
+            <option value="march">Event three</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3"
+            >Select client</label
+          >
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select Evenet</option>
+            <option value="january">Event one</option>
+            <option value="february">Event two</option>
+            <option value="march">Event three</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3"
+            >Payment method</label
+          >
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select payment method</option>
+            <option value="january">Easypaisa</option>
+            <option value="february">Jazzcash</option>
+            <option value="march">Paypal</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3 d-flex justify-between flex-column">
+          <label for="select" class="text-white d-block mb-3"
+            >Payed between</label
+          >
+          <div class="d-flex justify-content-between">
+            <input
+              type="date"
+              placeholder="mm.dd.yy"
+              class="member_date_field form-control"
+              style="width: 49%"
+            />
+            <input
+              type="date"
+              placeholder="mm.dd.yy"
+              class="member_date_field form-control"
+              style="width: 49%"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3"
+            >Delivery methods</label
+          >
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select delivery method</option>
+            <option value="january">Easypaisa</option>
+            <option value="february">Jazzcash</option>
+            <option value="march">Nayapay</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-3">
+          <label for="select" class="text-white d-block mb-3">Tags</label>
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select tags</option>
+            <option value="january">Tag one</option>
+            <option value="february">Tag two</option>
+            <option value="march">Tag three</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <label for="select" class="text-white d-block mb-3">Keys</label>
+          <select
+            id="select"
+            class="form-select form-select-lg mb-3 w-100"
+            aria-label="Large select example"
+          >
+            <option selected>Select keys</option>
+            <option value="january">key one</option>
+            <option value="february">key two</option>
+            <option value="march">key three</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------- BOOK TABLE  SECTION ---------------------------- -->
+    <div class="container-fluid mt-md-5 mt-4">
+      <div class="row px-2 py-4">
+        <div class="col-12 p-4 bg-white shadow-sm">
+          <!-- TABLE -->
+          <div class="table-responsive">
+            <table class="table table-borderless table-hover">
+              <thead>
+                <tr>
+                  <th class="pb-3">Book Name</th>
+                  <th class="pb-3">Status</th>
+                  <th class="pb-3">Read Vol</th>
+                  <th class="pb-3">Read Chapter</th>
+                  <th class="pb-3">Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-secondary first_row">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/nav-icon.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        is it Wrong Try to Pick up Girls in Dungeon
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary">Completed</td>
+                  <td class="text-secondary">14</td>
+                  <td class="text-secondary">163</td>
+                  <td class="text-secondary">9.00</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/img-2.png" alt="" />
+                      <p class="mb-0 text-capitalize">Classroom of the Elite</p>
+                    </div>
+                  </td>
+                  <td class="text-secondary">Reading</td>
+                  <td class="text-secondary">14</td>
+                  <td class="text-secondary">-</td>
+                  <td class="text-secondary">8.00</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/img-3.png" alt="" />
+                      <p class="mb-0 text-capitalize">
+                        My youth romantic comedy is wrong as expected
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary">Reading</td>
+                  <td class="text-secondary">15</td>
+                  <td class="text-secondary">-</td>
+                  <td class="text-secondary">8.00</td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row">
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="table_img"
+                        src="image/author/img-1.png"
+                        alt=""
+                      />
+                      <p class="mb-0 text-capitalize">
+                        is it Wrong Try to Pick up Girls in Dungeon Sword
+                        Orater...
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary">Reading</td>
+                  <td class="text-secondary">12</td>
+                  <td class="text-secondary">103</td>
+                  <td class="text-secondary">9.50</td>
+                </tr>
+                <!-- Add more rows as needed -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FONTAWESOME LINK    -->
+    <script
+      src="https://kit.fontawesome.com/9abcaa1c43.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

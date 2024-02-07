@@ -12,12 +12,13 @@
     --light-white: #cfcfd0;
     --black: #171542;
     --blue: #21D8FC;
-    --dark-blue : #449efe;
+    --dark-blue: #449efe;
+    --light-blue : #11235A;
     --bg-color: #09101a;
     --purple-color: #513a91;
-    --dark-purple : #910A67;
-    --pink :#D63484;
-    --green : #19876d;
+    --dark-purple: #910A67;
+    --pink: #D63484;
+    --green: #19876d;
     --heading-font: "Montserrat", sans-serif;
     --text-font: "Poppins", sans-serif;
     /* TRANSITION */
@@ -40,6 +41,7 @@ body {
 .font-heading {
     font-family: var(--heading-font) !important;
 }
+
 .font-text {
     font-family: var(--text-font) !important;
 }
@@ -57,8 +59,16 @@ body {
     color: var(--blue) !important;
 }
 
+.text-light-blue {
+    color: var(--light-blue) !important;
+}
+
 .text-purple {
     color: var(--purple-color) !important;
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue) !important;
 }
 
 /* FONT WEIGHT CLASSES */
@@ -69,6 +79,7 @@ body {
 .fw-400 {
     font-weight: 400 !important;
 }
+
 .fw-600 {
     font-weight: 600 !important;
 }
@@ -111,7 +122,7 @@ body {
 }
 
 .help_text {
-    font-size: 1.6rem ;
+    font-size: 1.6rem;
     font-weight: normal;
     color: #000;
 }
@@ -131,6 +142,7 @@ body {
     background-color: transparent;
     font-size: 1.4rem;
 }
+
 .child_btn_secondary {
     width: 140px;
     height: 50px;
@@ -143,7 +155,7 @@ body {
     transition: var(--transition);
 }
 
-.child_btn_secondary:hover ,
+.child_btn_secondary:hover,
 .child_btn_secondary:focus {
     border-color: var(--blue);
 }
@@ -193,7 +205,7 @@ body {
 }
 
 /* -------------------------------------------- DATE OF BIRTH PAGE START-------------------------------------------- */
-.form-control , 
+.form-control,
 .form-select {
     width: 140px;
     height: 50px;
@@ -201,7 +213,7 @@ body {
     transition: var(--transition);
 }
 
-.form-control:focus , 
+.form-control:focus,
 .form-select:focus {
     outline: none !important;
     box-shadow: none !important;
@@ -219,7 +231,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0px 2px 8px rgba( 0 , 0 , 0 , 0.5) !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 .navbar-brand .logo {
@@ -227,7 +239,7 @@ body {
     height: 2rem;
     border: 0.3rem solid var(--white);
     position: relative;
-    transform: rotate(45deg);   
+    transform: rotate(45deg);
 }
 
 .navbar-brand p {
@@ -247,7 +259,7 @@ body {
 }
 
 .nav_link .user img {
-    width: 4.5rem ;
+    width: 4.5rem;
     height: 4.5rem;
     object-fit: cover;
 }
@@ -263,16 +275,19 @@ body {
 }
 
 .card_one {
-    background-color:var(--green) ;
+    background-color: var(--green);
 }
+
 .card_two {
-    background-color:#256aea ;
+    background-color: #256aea;
 }
+
 .card_three {
-    background-color:var(--dark-purple) ;
+    background-color: var(--dark-purple);
 }
+
 .card_four {
-    background-color:var(--pink) ;
+    background-color: var(--pink);
 }
 
 .dashboard_card i {
@@ -282,6 +297,24 @@ body {
 
 .dashboard_card h3 {
     font-size: 3rem;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.table th,
+.table td {
+    white-space: nowrap;
+}
+
+.table-responsive th:first-child {
+    width: 50%;
 }
 
 .table_img {
@@ -311,4 +344,7 @@ body {
     color: var(--white);
 }
 
-/* -------------------------------------------- CHILD PAGE START-------------------------------------------- */
+/* -------------------------------------------- MEMEBER DASHBOARD PAGE START-------------------------------------------- */
+.member_header h2 {
+    font-size: 3rem;
+}
