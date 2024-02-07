@@ -13,7 +13,7 @@
     --black: #171542;
     --blue: #21D8FC;
     --dark-blue: #449efe;
-    --light-blue : #11235A;
+    --light-blue: #11235A;
     --bg-color: #09101a;
     --purple-color: #513a91;
     --dark-purple: #910A67;
@@ -193,7 +193,7 @@ body {
 
 .child_link a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: var(--purple-color);
 }
@@ -313,9 +313,10 @@ body {
     white-space: nowrap;
 }
 
+/* 
 .table-responsive th:first-child {
     width: 50%;
-}
+} */
 
 .table_img {
     width: 4.5rem;
@@ -347,4 +348,36 @@ body {
 /* -------------------------------------------- MEMEBER DASHBOARD PAGE START-------------------------------------------- */
 .member_header h2 {
     font-size: 3rem;
+}
+
+.status {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--green);
+}
+
+.table_badge_primary,
+.table_badge_secondary {
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 5rem;
+    color: var(--black);
+}
+
+.table_badge_primary {
+    background-color: var(--pink);
+}
+
+.table_badge_secondary {
+    background-color: var(--blue);
+}
+
+.subfooter {
+    font-size: 1.2rem;
 }

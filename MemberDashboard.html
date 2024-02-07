@@ -152,78 +152,305 @@
     <!---------------------------- BOOK TABLE  SECTION ---------------------------- -->
     <div class="container-fluid mt-md-5 mt-4">
       <div class="row px-2 py-4">
-        <div class="col-12 p-4 bg-white shadow-sm">
+        <div class="col-12 p-4 bg-white ">
           <!-- TABLE -->
           <div class="table-responsive">
-            <table class="table table-borderless table-hover">
-              <thead>
+            <table class="table table-borderless table-hover table-striped">
+              <thead
+                class="table-dark align-middle"
+                style="width: 100%; height: 70px"
+              >
                 <tr>
-                  <th class="pb-3">Book Name</th>
-                  <th class="pb-3">Status</th>
-                  <th class="pb-3">Read Vol</th>
-                  <th class="pb-3">Read Chapter</th>
-                  <th class="pb-3">Score</th>
+                  <th class="py-3 ps-3">Client</th>
+                  <th class="py-3">Status</th>
+                  <th class="py-3">Payment method</th>
+                  <th class="py-3">Payed at</th>
+                  <th class="py-3">Delivery method</th>
+                  <th class="py-3">Tags</th>
+                  <th class="py-3">Keys</th>
+                  <th class="py-3">Event</th>
                 </tr>
               </thead>
+              <!-- BODY -->
               <tbody>
+                <!-- ONE -->
                 <tr>
-                  <td class="text-secondary first_row">
+                  <td class="text-secondary first_row py-3">
                     <div class="d-flex align-items-center gap-3">
                       <img class="table_img" src="image/nav-icon.png" alt="" />
                       <p class="mb-0 text-capitalize text-secondary">
-                        is it Wrong Try to Pick up Girls in Dungeon
+                        Kevin Page
                       </p>
                     </div>
                   </td>
-                  <td class="text-secondary">Completed</td>
-                  <td class="text-secondary">14</td>
-                  <td class="text-secondary">163</td>
-                  <td class="text-secondary">9.00</td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">01.10.2020</td>
+                  <td class="text-secondary align-middle py-3">Overnight</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">KHIRANM19</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_secondary">CrazyEight</span>
+                  </td>
                 </tr>
                 <tr>
-                  <td class="text-secondary first_row">
+                  <td class="text-secondary first_row py-3">
                     <div class="d-flex align-items-center gap-3">
                       <img class="table_img" src="image/img-2.png" alt="" />
-                      <p class="mb-0 text-capitalize">Classroom of the Elite</p>
-                    </div>
-                  </td>
-                  <td class="text-secondary">Reading</td>
-                  <td class="text-secondary">14</td>
-                  <td class="text-secondary">-</td>
-                  <td class="text-secondary">8.00</td>
-                </tr>
-                <tr>
-                  <td class="text-secondary first_row">
-                    <div class="d-flex align-items-center gap-3">
-                      <img class="table_img" src="image/img-3.png" alt="" />
-                      <p class="mb-0 text-capitalize">
-                        My youth romantic comedy is wrong as expected
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Meri Smith
                       </p>
                     </div>
                   </td>
-                  <td class="text-secondary">Reading</td>
-                  <td class="text-secondary">15</td>
-                  <td class="text-secondary">-</td>
-                  <td class="text-secondary">8.00</td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Debit Card</td>
+                  <td class="text-secondary align-middle py-3">09.11.2020</td>
+                  <td class="text-secondary align-middle py-3">Standard</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">NFTLO20</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_primary">Eventiful</span>
+                  </td>
                 </tr>
                 <tr>
-                  <td class="text-secondary first_row">
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/img-3.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Sally Hert
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">25.02.2020</td>
+                  <td class="text-secondary align-middle py-3">Overnight</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">MNSTI251</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_primary">Eventiful</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
                     <div class="d-flex align-items-center gap-3">
                       <img
                         class="table_img"
                         src="image/author/img-1.png"
                         alt=""
                       />
-                      <p class="mb-0 text-capitalize">
-                        is it Wrong Try to Pick up Girls in Dungeon Sword
-                        Orater...
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Lorelai Adam
                       </p>
                     </div>
                   </td>
-                  <td class="text-secondary">Reading</td>
-                  <td class="text-secondary">12</td>
-                  <td class="text-secondary">103</td>
-                  <td class="text-secondary">9.50</td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span
+                        class="d-block status"
+                        style="background-color: #708090"
+                      ></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">01.10.2020</td>
+                  <td class="text-secondary align-middle py-3">Overnight</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">ANZDT50</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_primary">Eventiful</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="table_img"
+                        src="image/author/img-3.png"
+                        alt=""
+                      />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Lisbet Turner
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">28.05.2020</td>
+                  <td class="text-secondary align-middle py-3">Standard</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">PMTLO44</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_secondary">CrazyEight</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="table_img"
+                        src="image/author/img-5.png"
+                        alt=""
+                      />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Chris Evans
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Debit Card</td>
+                  <td class="text-secondary align-middle py-3">15.05.2020</td>
+                  <td class="text-secondary align-middle py-3">Standard</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">PMTLO44</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_secondary">CrazyEight</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3 py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/nav-icon.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Thomas Watson
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Debit Card</td>
+                  <td class="text-secondary align-middle py-3">11.01.2019</td>
+                  <td class="text-secondary align-middle py-3">Overnight</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">KPLS20</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_primary">Eventiful</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/img-2.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Bell Brook
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">20.12.2020</td>
+                  <td class="text-secondary align-middle py-3">Standard</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">NFTLO20</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_secondary">CrazyEight</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/nav-icon.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Carlo Morgon
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span class="d-block status"></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">Open</td>
+                  <td class="text-secondary align-middle py-3">Overnight</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">CMDOS20</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_primary">Eventiful</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-secondary first_row py-3">
+                    <div class="d-flex align-items-center gap-3">
+                      <img class="table_img" src="image/img-2.png" alt="" />
+                      <p class="mb-0 text-capitalize text-secondary">
+                        Sebastian Reed
+                      </p>
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">
+                    <div class="d-flex align-items-center gap-2">
+                      <span
+                        class="d-block status"
+                        style="background-color: #708090"
+                      ></span>
+                      Active
+                    </div>
+                  </td>
+                  <td class="text-secondary align-middle py-3">Paypal</td>
+                  <td class="text-secondary align-middle py-3">20.12.2020</td>
+                  <td class="text-secondary align-middle py-3">Standard</td>
+                  <td class="text-secondary align-middle py-3">
+                    High Performance
+                  </td>
+                  <td class="text-secondary align-middle py-3">NFTLO20</td>
+                  <td class="text-secondary align-middle py-3">
+                    <span class="table_badge_secondary">CrazyEight</span>
+                  </td>
                 </tr>
                 <!-- Add more rows as needed -->
               </tbody>
@@ -232,6 +459,9 @@
         </div>
       </div>
     </div>
+    <p class="mb-0 py-4 text-secondary text-center mt-4 subfooter">
+      &copy; Copyright 2020. All Right Reserved by Angit Septiansyah
+    </p>
 
     <!-- FONTAWESOME LINK    -->
     <script
